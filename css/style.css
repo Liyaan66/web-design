@@ -1,0 +1,39 @@
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background:#f4f4f4;
+}
+.card-container{
+    display: flex;
+    margin: 20px;
+}
+main{
+    flex: 3;
+    background: rgb(255, 255, 255);
+    margin-right: 20px;
+    padding: 10px;
+}
+aside{
+    flex: 1;
+    background-color: rgb(217, 211, 211);
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width:28%;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    box-shadow: 0 0 10px rgb(198, 193, 193);
+    text-align: center;
+    border-radius: 10px;
+}
+.card img{
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 15px;
+}
